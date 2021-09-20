@@ -52,3 +52,6 @@ Output-2
 ●	Different organization can use this to extract useful information from the image and store it. </br>
 
 ● Individuals can use it for saving their time and effort for typing.
+
+● In addition to the tesserract I have used various image transformation functions of OpenCV(as shown in the methodology) in order to extract text from complex images.
+
