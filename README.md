@@ -7,8 +7,18 @@ In this project, I have worked on extracting text from images. After extracting 
 
 ## Methedology of the Extractor ##
 ![Screenshot 2021-09-20 at 9 12 15 PM](https://user-images.githubusercontent.com/60060524/134031619-392ce018-6bd8-4d23-80e6-2e45c7b642b8.png)
-
-
+Here we can see the procedure that we've followed to extract text out of an complex image, we can see these in the collab notebook as well.
+●	I start with importing the required packages.
+●	I use teserract to extract the text and remove all the irrelevant symbols from characters.
+●	Then we read the image into opencv format to process it further. This is required when I need to extract the text from complex images.
+●	Then I convert the images to grayscale so that it becomes less complex to process.
+●	This is followed by blurring the image so that we can remove the noise from the image.
+●	After this I performed threshold transformation. If pixel value is greater than a threshold value, it is assigned one value (may be white), else it is assigned another value (may be black). 
+●	Erode transformation is done. cv2.erode() method is used to perform erosion on the image. The basic idea of erosion is just like soil erosion only, it erodes away the boundaries of foreground object (Always try to keep foreground in white). 
+●	Performed morphological trandformation which is used in opening small holes inside the foreground objects, or small white points on the object.
+●	Canny transformation is used to detect egdes in the image. 
+●	Applied deskewing on the image. Deskewing is a process whereby skew is removed by rotating an image by the same amount as its skew but in the opposite direction. This results in a horizontally and vertically aligned image where the text runs across the page rather than at an angle.
+Generally, since we don't come accross very complex images we can extract text out of images using teserract after preproccessing.
 ### Live Link: https://text-extraction-application.herokuapp.com/ ###
 
 ### I/O Screenshot :<br/> ###
