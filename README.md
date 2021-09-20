@@ -15,7 +15,7 @@ Here we can see the procedure that we've followed to extract text out of an comp
 ●	This is followed by blurring the image so that we can remove the noise from the image.</br>
 ●	After this I performed threshold transformation. If pixel value is greater than a threshold value, it is assigned one value (may be white), else it is assigned another value (may be black). </br>
 ●	Erode transformation is done. cv2.erode() method is used to perform erosion on the image. The basic idea of erosion is just like soil erosion only, it erodes away the boundaries of foreground object (Always try to keep foreground in white). </br>
-●	Performed morphological trandformation which is used in opening small holes inside the foreground objects, or small white points on the object.
+●	Performed morphological trandformation which is used in opening small holes inside the foreground objects, or small white points on the object.</br>
 ●	Canny transformation is used to detect egdes in the image. </br>
 ●	Applied deskewing on the image. Deskewing is a process whereby skew is removed by rotating an image by the same amount as its skew but in the opposite direction. This results in a horizontally and vertically aligned image where the text runs across the page rather than at an angle.</br>
 Generally, since we don't come accross very complex images we can extract text out of images using teserract after preproccessing.</br>
@@ -48,7 +48,5 @@ Output-2
 -Finally we visualized the differences and similarities between the images using by displaying the images with contours, difference and threshold.<br>
 
 ### Novelty :<br/> ###
-●	This project can be used in different organizations where customers or users need to provide any kind of id in order to get themselves verified.<br>
-
-● The organization can use this project to find out whether the ID is original or fake. Similarly this can be used for any type of ID like adhar, voter id, etc.<br>
-
+●	Different organization can use this to extract useful information from the image and store it. 
+● Individuals can use it for saving their time and effort for typing.
