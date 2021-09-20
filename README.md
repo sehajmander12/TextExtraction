@@ -35,7 +35,7 @@ We have deployed the text extraction application with the help of flask so that 
 
 ### I/O Screenshot :<br/> ###
 #### Input-1  ####
-![maya-angelou](https://user-images.githubusercontent.com/60060524/134026698-76884845-c784-4cdb-8aa7-3a9cfb39a202.png =250x250)
+![maya-angelou](https://user-images.githubusercontent.com/60060524/134026698-76884845-c784-4cdb-8aa7-3a9cfb39a202.png =250x200)
 
 
 Output-1
