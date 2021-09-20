@@ -7,7 +7,7 @@ In this project, I have worked on extracting text from images. After extracting 
 
 ## Methedology of the Extractor ##
 ![Screenshot 2021-09-20 at 9 12 15 PM](https://user-images.githubusercontent.com/60060524/134031619-392ce018-6bd8-4d23-80e6-2e45c7b642b8.png)</br>
-Here we can see the procedure that we've followed to extract text out of an complex image, we can see these in the collab notebook as well. </br>
+Here we can see the procedure that we've followed to extract text out of a complex image, we can see these in the collab notebook as well. </br>
 ●	I start with importing the required packages.</br>
 
 ●	I use teserract to extract the text and remove all the irrelevant symbols from characters.</br>
@@ -28,7 +28,7 @@ Here we can see the procedure that we've followed to extract text out of an comp
 
 ●	Applied deskewing on the image. Deskewing is a process whereby skew is removed by rotating an image by the same amount as its skew but in the opposite direction. This results in a horizontally and vertically aligned image where the text runs across the page rather than at an angle.</br>
 
-Generally, since we don't come accross very complex images we can extract text out of images using teserract after preproccessing.</br>
+Generally, since we don't come accross very complex images so we can extract text out of images using teserract after preproccessing.</br>
 
 We have deployed the text extraction application with the help of flask so that it can be accessible to all. 
 ### Here is the Live Link: https://text-extraction-application.herokuapp.com/ ###
