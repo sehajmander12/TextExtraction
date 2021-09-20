@@ -8,11 +8,11 @@ In this project, I have worked on extracting text from images. After extracting 
 ### Live Link: https://text-extraction-application.herokuapp.com/ ###
 
 ### I/O Screenshot :<br/> ###
-#### Input-1 (Original) ####
-![](https://github.com/sehajmander12/TextExtraction/blob/main/sample_data/maya-angelou.png)
+#### Input-1  ####
+![image1](https://github.com/sehajmander12/TextExtraction/blob/main/sample_data/maya-angelou.png)
 
 Output-1
-![](https://user-images.githubusercontent.com/48948891/133932650-c126736b-77b7-4377-8e77-d755f3d939ba.png)
+![output1](https://user-images.githubusercontent.com/48948891/133932650-c126736b-77b7-4377-8e77-d755f3d939ba.png)
 </br>
 #### Input-2(Tampered) ####
 ![](https://user-images.githubusercontent.com/48948891/133932765-19ee7aed-168e-4e10-b9f2-1ce5f4501c3f.jpg)
