@@ -1,29 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no">
-  <title>Text Extraction Application</title>
-<style type="text/css">
-        /class selector/
-        .btn{
-            width:inline;background-color:red;padding:10px;text-align:center;float:left;margin-left:10px;color:white;cursor:pointer;border-radius:10px;text-align: center;
-        } 
-        .btn:hover{background-color:gold;color:black}/in-build keyword/
-    </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Optical Character Recognition App</title>
+
   <!-- CSS  -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
   <link href="./static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  
 </head>
 
 <body>
-  <nav style="background-color: #51BBAD" class="lighten-1"  role="navigation" style="height: 100px">
+  <nav style="background-color: #893f45" class="lighten-1"  role="navigation" style="height: 100px">
     <div class="nav-wrapper container">
       <a id="logo-container" class="brand-logo center"><h5>Optical Character Recognition App</h5></a>
-     
+      <div style="margin-left: 800px">
+      	   Made by <a class="orange-text text-lighten-3">Pianalytix</a>
+      </div>
     </div>
   </nav>
 
@@ -38,19 +32,20 @@
               <div class = "row">
 
                   <div class="row">
+                    <label for="first_name"><b>Upload Image</b></label><br>
                     <div class = "file-field input-field">
-                      <div class = "btn" >
+                      <div class = "btn" style="background-color: #893f45">
                         <span>Browse</span>
                         <input type = "file" name="image_upload" id="image_upload" />
                       </div>
                       <div class = "file-path-wrapper">
-                        <input class = "file-path validate" type = "text" placeholder = "Uploaded Image" name="image_name" id="image_name" />
+                        <input class = "file-path validate" type = "text" placeholder = "Upload Image" name="image_name" id="image_name" />
                       </div>
                     </div>
                   </div>
 
-                  <div class="row center" style="margin-left: 20px margin-top: 80px margin-right: 50px margin-bottom: 80px ">
-                    <button id="submit" type="submit" class = "btn" >Extract</button>
+                  <div class="row center" style="margin-top: 50px">
+                    <button id="submit" type="submit" class="btn-large" style="background-color: #893f45">Extract</button>
                   </div>
 
                   <div>
@@ -75,12 +70,11 @@
         </form>
       </div>
     </div>
-    
   </div>
 
   </div>
   </div>
-  
+
   <!--  Scripts-->
   <script src="./static/js/materialize.js"></script>
   <script type="text/javascript">
@@ -93,12 +87,6 @@
 
 
   </script>
-  <div class="row" >
-    <div class="col-md-2" >
-      <div style="text-align:center; margin-top: 160px">
-        <font color="#51BBAD">Made by Sehajpreet Kaur
-      </div>
-    </div>
-   </div>
+
   </body>
 </html>
