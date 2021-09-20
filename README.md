@@ -30,7 +30,7 @@ Here we can see the procedure that we've followed to extract text out of a compl
 
 Generally, since we don't come accross very complex images so we can extract text out of images using teserract after preproccessing.</br>
 
-We have deployed the text extraction application with the help of flask so that it can be accessible to all. 
+We have deployed the text extraction application with the help of flask so that it can be accessible to all. You may use the images in sample_data folder for testing out the extractor.
 ### Here is the Live Link: https://text-extraction-application.herokuapp.com/ ###
 
 ### I/O Screenshot :<br/> ###
