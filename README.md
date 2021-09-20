@@ -9,16 +9,16 @@ In this project, I have worked on extracting text from images. After extracting 
 
 ### I/O Screenshot :<br/> ###
 #### Input-1 (Original) ####
-![original](https://github.com/sehajmander12/TextExtraction/blob/main/sample_data/maya-angelou.png)
+![](https://github.com/sehajmander12/TextExtraction/blob/main/sample_data/maya-angelou.png)
 
 Output-1
-![Screenshot (442)](https://user-images.githubusercontent.com/48948891/133932650-c126736b-77b7-4377-8e77-d755f3d939ba.png)
+![](https://user-images.githubusercontent.com/48948891/133932650-c126736b-77b7-4377-8e77-d755f3d939ba.png)
 </br>
 #### Input-2(Tampered) ####
-![tampered](https://user-images.githubusercontent.com/48948891/133932765-19ee7aed-168e-4e10-b9f2-1ce5f4501c3f.jpg)
+![](https://user-images.githubusercontent.com/48948891/133932765-19ee7aed-168e-4e10-b9f2-1ce5f4501c3f.jpg)
 
 Output-2
-![Screenshot (444)](https://user-images.githubusercontent.com/48948891/133932696-8274d7ad-19ba-47f5-b7bb-55c73b9046b0.png)
+![](https://user-images.githubusercontent.com/48948891/133932696-8274d7ad-19ba-47f5-b7bb-55c73b9046b0.png)
 </br>
 ### Summary :<br/> ###
 
