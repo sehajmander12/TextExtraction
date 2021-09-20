@@ -17,7 +17,8 @@ Output-1
 
 </br>
 #### Input-2 ####
-![Forty Rules](https://user-images.githubusercontent.com/60060524/134026930-6f28c273-9b51-4345-a632-a406e7a508c7.jpeg)
+![Forty Rules](https://user-images.githubusercontent.com/60060524/134027188-4029365f-7ec3-41c5-b8a9-ff64f50353ee.png)
+
 
 
 Output-2
