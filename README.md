@@ -30,7 +30,7 @@ Generally, since we don't come accross very complex images so we can extract tex
 We have deployed the text extraction application with the help of flask so that it can be accessible to all. You may use the images in sample_data folder for testing out the extractor.
 ### Here is the Live Link: https://text-extraction-application.herokuapp.com/ ###
 
-## I/O Screenshot :<br/> ##
+## I/O Screenshot <br/> ##
 #### Input-1  ####
 ![maya-angelou](https://user-images.githubusercontent.com/60060524/134026698-76884845-c784-4cdb-8aa7-3a9cfb39a202.png)
 
@@ -48,7 +48,7 @@ Output-2
 ![Screenshot 2021-09-20 at 8 33 58 PM](https://user-images.githubusercontent.com/60060524/134026941-0d09112c-39ca-45e5-9c17-67f6bb8f77aa.png)
 </br>
 
-## Novelty :<br/> ##
+## Novelty <br/> ##
 ●	Different organization can use this to extract useful information from the image and store it. </br>
 
 ● Individuals can use it for saving their time and effort for typing.
