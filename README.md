@@ -1,28 +1,22 @@
-# PAN-Card-Tampering-Detection #
+# Text-Extraction #
 
-UCS757 - Building Innovative Systems <br>
 Project - 1 <br>
 
 ## Overview: ##
-The purpose of this project is to detect tampering of PAN card using computer vision. This project will help different organization in detecting whether the Id i.e. the PAN card provided to them by thier employees or customers or anyone is original or not.
+In this project, I have worked on extracting text from images. After extracting the text we will apply some basic functions of OpenCV on that text to enhance it and to get more accurate results. This project will be very useful as it will save time and effort of typing from an image.
 
-### Live Link: https://pancard-tampering-1.herokuapp.com/ ###
-(Sample Data already enclosed in this github-repo)
+### Live Link: https://text-extraction-application.herokuapp.com/ ###
 
 ### I/O Screenshot :<br/> ###
 #### Input-1 (Original) ####
-![original](https://user-images.githubusercontent.com/48948891/133932760-89f3f757-5551-4511-bc8b-7ecdc1397017.jpg)
-<br>
-![Screenshot (441)](https://user-images.githubusercontent.com/48948891/133932572-638b9c11-35b9-4d90-828f-421ce5624fea.png)
-</br>
+![original](https://github.com/sehajmander12/TextExtraction/blob/main/sample_data/maya-angelou.png)
+
 Output-1
 ![Screenshot (442)](https://user-images.githubusercontent.com/48948891/133932650-c126736b-77b7-4377-8e77-d755f3d939ba.png)
 </br>
 #### Input-2(Tampered) ####
 ![tampered](https://user-images.githubusercontent.com/48948891/133932765-19ee7aed-168e-4e10-b9f2-1ce5f4501c3f.jpg)
-</br>
-![Screenshot (443)](https://user-images.githubusercontent.com/48948891/133932678-064446c2-2f53-4188-89e0-9fac0302bb71.png)
-</br>
+
 Output-2
 ![Screenshot (444)](https://user-images.githubusercontent.com/48948891/133932696-8274d7ad-19ba-47f5-b7bb-55c73b9046b0.png)
 </br>
