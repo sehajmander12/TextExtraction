@@ -48,5 +48,6 @@ Output-2
 -Finally we visualized the differences and similarities between the images using by displaying the images with contours, difference and threshold.<br>
 
 ### Novelty :<br/> ###
-●	Different organization can use this to extract useful information from the image and store it. 
+●	Different organization can use this to extract useful information from the image and store it. </br>
+
 ● Individuals can use it for saving their time and effort for typing.
