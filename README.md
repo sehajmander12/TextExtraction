@@ -29,7 +29,9 @@ Here we can see the procedure that we've followed to extract text out of an comp
 ●	Applied deskewing on the image. Deskewing is a process whereby skew is removed by rotating an image by the same amount as its skew but in the opposite direction. This results in a horizontally and vertically aligned image where the text runs across the page rather than at an angle.</br>
 
 Generally, since we don't come accross very complex images we can extract text out of images using teserract after preproccessing.</br>
-### Live Link: https://text-extraction-application.herokuapp.com/ ###
+
+We have deployed the text extraction application with the help of flask so that it can be accessible to all. 
+### Here is the Live Link: https://text-extraction-application.herokuapp.com/ ###
 
 ### I/O Screenshot :<br/> ###
 #### Input-1  ####
@@ -48,14 +50,6 @@ Output-1
 Output-2
 ![Screenshot 2021-09-20 at 8 33 58 PM](https://user-images.githubusercontent.com/60060524/134026941-0d09112c-39ca-45e5-9c17-67f6bb8f77aa.png)
 </br>
-
-### Summary :<br/> ###
-
--Finding out structural similarity of the images helped us in finding the difference or similarity in the shape of the images. Similarly, finding out the threshold and contours based on those threshold for the images converted into grayscale binary also helped us in shape analysis and recognition.<br>
-
--As, our SSIM is ~28.5% we can say that the image user provided is fake or tampered.<br>
-
--Finally we visualized the differences and similarities between the images using by displaying the images with contours, difference and threshold.<br>
 
 ### Novelty :<br/> ###
 ●	Different organization can use this to extract useful information from the image and store it. </br>
