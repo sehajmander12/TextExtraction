@@ -9,16 +9,20 @@ In this project, I have worked on extracting text from images. After extracting 
 
 ### I/O Screenshot :<br/> ###
 #### Input-1  ####
-![image1](https://github.com/sehajmander12/TextExtraction/blob/main/sample_data/maya-angelou.png)
+![maya-angelou](https://user-images.githubusercontent.com/60060524/134026698-76884845-c784-4cdb-8aa7-3a9cfb39a202.png)
+
 
 Output-1
-![output1](https://user-images.githubusercontent.com/48948891/133932650-c126736b-77b7-4377-8e77-d755f3d939ba.png)
+![Screenshot 2021-09-20 at 8 34 12 PM](https://user-images.githubusercontent.com/60060524/134026764-d04d07d1-4885-405f-a820-f3dbe340ddeb.png)
+
 </br>
-#### Input-2(Tampered) ####
-![](https://user-images.githubusercontent.com/48948891/133932765-19ee7aed-168e-4e10-b9f2-1ce5f4501c3f.jpg)
+#### Input-2 ####
+![Forty Rules](https://user-images.githubusercontent.com/60060524/134026930-6f28c273-9b51-4345-a632-a406e7a508c7.jpeg)
+
 
 Output-2
-![](https://user-images.githubusercontent.com/48948891/133932696-8274d7ad-19ba-47f5-b7bb-55c73b9046b0.png)
+![Screenshot 2021-09-20 at 8 33 58 PM](https://user-images.githubusercontent.com/60060524/134026941-0d09112c-39ca-45e5-9c17-67f6bb8f77aa.png)
+
 </br>
 ### Summary :<br/> ###
 
