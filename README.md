@@ -2,7 +2,7 @@
 ## Overview ##
 In this project, I have worked on extracting text from images. After extracting the text we will apply some basic functions of OpenCV on that text to enhance it and to get more accurate results. This project will be very useful as it will save time and effort of typing from an image.
 
-## Methedology of the Extractor ##
+## Methodology of the Extractor ##
 ![Screenshot 2021-09-20 at 9 12 15 PM](https://user-images.githubusercontent.com/60060524/134031619-392ce018-6bd8-4d23-80e6-2e45c7b642b8.png)</br>
 Here we can see the procedure that we've followed to extract text out of a complex image, we can see these in the collab notebook as well. </br>
 ●	I start with importing the required packages.</br>
